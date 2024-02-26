@@ -8,7 +8,7 @@ pipeline {
         stage('Récupération du code source') {
             steps {
                 // Cette étape clone le référentiel Git
-               
+               echo 'hello'
             }
         }
 
